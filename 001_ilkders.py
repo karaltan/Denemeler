@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 def main():
-    # python dilinde herhangi bir şekilde değişken tanımlanmaz
+    # python dilinde diğer dillerdeki gibi "tip" değişken tanımlanmaz
     # bunun yerine değişkeni isimlendirip değeri = ile atayabiliriz. örn.
     # sayi = 128
     # cumle = "python programlama dili"
