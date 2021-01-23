@@ -11,7 +11,7 @@ def main():
     for i in liste:
         print(i)
     # range deyiminde 9 değerini almamıştı ama listede durum farklı
-    # ilk elemandna son elemana kadar tüm değerler alındı
+    # ilk elemandna son elemana kadar tüm değerler alındı.
 
 
 if __name__ == '__main__':
