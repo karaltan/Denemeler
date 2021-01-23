@@ -3,6 +3,9 @@
 def main():
     # listeler ve özellikleri.
     # boş bir liste için aşağıdaki kod ile başlanabilir
+    # listede her elemanın bir index numarası olur ve 0 dan başlar
+    # ilk eleman her zaman 0 olur, eğer listedeki son elemanı
+    # çağırmak istersek liste[-1] ile sonuncu elemanı buluruz.
     liste = []
     # listeye eleman eklemek için .append(eleman) kullanılır örn.
     liste.append("mesaj")
