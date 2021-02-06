@@ -11,9 +11,9 @@ def main():
     if isinstance(sonuc, list):
         # isistance ile veri türünü tesbit ediyoruz
         # list, dict, tuple, int, str vs.
-        print("Veri türü sözlük")
+        print("Veri türü liste")
     else:
-        print("Veri türü sözlük değil")
+        print("Veri türü liste değil")
 
     print(sonuc)
 
