@@ -20,7 +20,7 @@ def main():
     print("3 büyüktür 4:\t", 3 > 4)
     # ilk değer ikinci değerden büyükse True, ek olarak >= büyük veya eşitse
     print("3 küçüktür 4:\t", 3 < 4)
-    # ilk değer ikinci değerden büyükse True, ek olarak <= küçük veya eşitse
+    # ilk değer ikinci değerden küçükse True, ek olarak <= küçük veya eşitse
 
 
 if __name__ == '__main__':
