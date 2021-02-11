@@ -6,7 +6,7 @@ def main():
     for x in range(1, 9):
         print(x)
     # burda x için range ile oluşan listede 9 olana kadar 9 hariç
-    # x deeğerini yazdırdık liste için aşağıdaki örneğe bakalım
+    # x deeğerini yazdırdık liste için aşağıdaki örneğe bakalım.
     liste = ["GNU", "Linux", "Python"]
     for i in liste:
         print(i)
