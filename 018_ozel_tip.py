@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 from typing import NewType
+import datetime
 
 Mesafe = NewType('Mesafe', float)
 Surat = NewType('Sürat', float)
@@ -7,9 +8,10 @@ Surat = NewType('Sürat', float)
 
 def main():
     yol = Mesafe(100)
-    kms = Surat(95)
+    kms = Surat(90)
     sonuc = hesap(yol, kms)
-    print("{:2f} Saat Sürer".format(sonuc))
+    saat = str(datetime.timedelta(hours=sonuc))
+    print("{} Saat Sürer".format(saat))
     print(hesap.__annotations__)
 
 
