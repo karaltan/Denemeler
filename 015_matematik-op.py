@@ -47,6 +47,15 @@ def main():
     # verilen parametrenin bool olarak karşılığını geri verir True yada False
     print(chr(97))
     # verilen sayının harf karşılığını verir
+    print(divmod(8, 2))
+    # bir sayının başka bir sayıya bölümünden "bölümü" ve "kalanı" verir
+    print(max(liste))
+    # bir listedeki en büyük sayıyı verir 4
+    print(min(liste))
+    # bir listedeki en küçük sayıyı verir 1 yada False
+    topla = [1, 2, 3, 4, 5]
+    print(sum(topla))
+    # bir listedeki tüm sayıları toplar
 
 
 if __name__ == '__main__':
