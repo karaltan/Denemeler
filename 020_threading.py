@@ -28,6 +28,7 @@ def main():
     while 1:
         # is_alive() halihazırda çalışan kanalımız işi bitmediyse True dönecek
         if kanal1.is_alive():
+            # kanal1 çalışırken bizde farklı işlemleri çalıştırabiliriz
             sayac()
         else:
             # false durumunda göngüden çıkılacak.
