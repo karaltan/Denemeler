@@ -1,12 +1,15 @@
 #!/usr/bin/env python
 from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
 import urllib.parse
 
 
 def main():
     aranan = input("Ara: ")
     site = "https://eksisozluk.com/?q={}".format(urllib.parse.quote(aranan))
-    driver = webdriver.Firefox()
+    opt = Options()
+    opt.headless = True
+    driver = webdriver.Firefox(options=opt)
     driver.set_window_size(1024, 768)
     try:
         driver.get(site)
